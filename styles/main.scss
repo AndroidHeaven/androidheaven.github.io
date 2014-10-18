@@ -83,7 +83,7 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #C73A3A;
+    border-bottom: 5px solid #C73A3A;
 }
 
 header.wrapper {
@@ -91,8 +91,8 @@ header.wrapper {
 }
 
 .footer-container,
-.main aside {
-    border-top: 20px solid #C73A3A;
+.below-fold {
+    border-top: 5px solid #C73A3A;
 }
 
 .header-container,
@@ -105,14 +105,14 @@ header.wrapper {
 
 .header-container,
 .footer-container,
-main {
+.below-fold {
 	background-color: #FAFAFA;
 }
 
 .header-logo {
-    max-height: 26px;
-    margin: 2.5% 0;
+    margin: 1.5% 0;
     float: left;
+    height: 3em;
     
     a:link &:hover {
 	    opacity: 0.75;
@@ -124,7 +124,9 @@ main {
 }
 
 .apps-link {
-   float: right;
+	position: relative;
+	top: 1em;
+	float: right;
 }
 
 /* ==============
@@ -214,7 +216,7 @@ main {
 }
 
 .main-container {
-	margin: 1.5% 5%;
+	margin: 2.5% 5%;
 }
 
 .below-fold {
