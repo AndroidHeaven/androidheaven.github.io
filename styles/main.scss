@@ -5,13 +5,13 @@ button,
 input,
 select,
 textarea {
-    color: #444;
+	color: #444;
 }
 
 html {
-    font-size: 1em;
-    line-height: 1.4;
-    box-sizing: border-box;
+	font-size: 1em;
+	line-height: 1.4;
+	box-sizing: border-box;
 }
 
 *,
@@ -21,46 +21,39 @@ html {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
 audio,
 canvas,
 img,
 video {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 textarea {
-    resize: vertical;
-}
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+	resize: vertical;
 }
 
 
@@ -69,21 +62,21 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
-    background-color: #FAFAFA;
+	font: 16px/26px Helvetica, Helvetica Neue, Arial;
+	background-color: #FAFAFA;
 }
 
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
+	width: 90%;
+	margin: 0 5%;
 }
 
 /* ===================
-    ALL: Orange Theme
+	ALL: Orange Theme
    =================== */
 
 .header-container {
-    border-bottom: 5px solid #C73A3A;
+	border-bottom: 5px solid #C73A3A;
 }
 
 header.wrapper {
@@ -92,15 +85,15 @@ header.wrapper {
 
 .footer-container,
 .below-fold {
-    border-top: 5px solid #C73A3A;
+	border-top: 5px solid #C73A3A;
 }
 
 .header-container,
 .footer-container,
 main {
-    background-color: #FAFAFA;
-    color: #444;
-    text-align: center;
+	background-color: #FAFAFA;
+	color: #444;
+	text-align: center;
 }
 
 .home .header-container {
@@ -108,17 +101,17 @@ main {
 	width: 100%;
 	z-index: 2;
 	background-color: rgba(250, 250, 250, 0.95);
-    border-bottom: 5px solid #C73A3A;
+	border-bottom: 5px solid #C73A3A;
 }
 
 .header-logo {
-    margin: 1.5% 0;
-    float: left;
-    height: 3em;
-    
-    a:link &:hover {
-	    opacity: 0.75;
-    }
+	margin: 1.5% 0;
+	float: left;
+	height: 3em;
+	
+	a:link &:hover {
+		 opacity: 0.75;
+	}
 }
 
 .home-link {
@@ -132,7 +125,7 @@ main {
 }
 
 /* ==============
-    MOBILE: Menu
+	MOBILE: Menu
    ============== */
 
 nav {
@@ -141,8 +134,8 @@ nav {
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 nav a {
@@ -151,13 +144,13 @@ nav a {
 
 a {
 	transition: color 0.25s ease;
-    text-decoration: none;
-    color: #38474F;
-    height: 100%;
+	text-decoration: none;
+	color: #38474F;
+	height: 100%;
 }
 
 a:link {
-    color: #5C7C9C;
+	color: #5C7C9C;
 }
 
 a:hover {
@@ -165,27 +158,27 @@ a:hover {
 }
 
 /* ==============
-    MOBILE: Main
+	MOBILE: Main
    ============== */
 
 .main {
-    padding: 30px 0;
+	padding: 30px 0;
 }
 
 .main article h1 {
-    font-size: 2em;
+	font-size: 2em;
 }
 
 .main aside {
-    padding: 0px 5% 10px;
+	padding: 0px 5% 10px;
 }
 
 /* ===============
-    ALL: IE Fixes
+	ALL: IE Fixes
    =============== */
 
 .ie7 .title {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 
 /* ==========================================================================
@@ -204,22 +197,25 @@ a:hover {
 }
 
 #holder {
-    background-image: url('images/Cloud-Upload.svg');
+	background-image: url('images/Cloud-Upload.svg');
 }
 
 #team-names {
-    list-style: none;
+	list-style: none;
 }
 
 main {
 	width: 100%;
 	box-shadow: 0 -1px 2px #aaa;
 	overflow: auto;
+	text-align: left;
+	margin: 0 auto;
+	padding: 2.5% 2.75%;
 }
 
 .main-container {
 	max-width: 75em;
-	margin: 2.5% auto;
+	margin: 0 auto;
 }
 
 .below-fold {
@@ -235,13 +231,41 @@ main {
 	height: 100vh;
 	cursor: pointer;
 	
-	form {
-		width: 100%;
+	form.classic {
+		background: rgba(204, 204, 204, 0.35);
+		padding: 0.5%;
+		border-radius: 4px;
+		display: inline-block;
+	}
+	
+	input {
+		width: 75%;
+	}
+	
+	button {
+		transition: background 0.25s ease, box-shadow 0.25s ease;
+		color: white;
+		border-radius: 4px;
+		border: none;
+		background: #C73A3A;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+		width: 22.5%;
+		
+		&:hover {
+			background: #38474F;
+			box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+		}
+		
+		&:active {
+			background: #283439;
+			box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
+		}
 	}
 	
 	svg {
 		max-width: 100%;
-		height: 15em;
+		height: 10em;
 		filter: drop-shadow(0px 1px 5px rgba(0,0,0,0.25));
 		animation: upload-shadow 2s linear infinite alternate-reverse;
 		
@@ -312,6 +336,7 @@ main {
 		vertical-align: top;
 		border: 1px solid #acacac;
 		padding: 6px 6px 6px 6px;
+		box-shadow: 0px 0px 5px rgba(0,0,0,.15);
 	}
 	.upload .dz-preview.dz-file-preview [data-dz-thumbnail],
 	.upload-previews .dz-preview.dz-file-preview [data-dz-thumbnail] {
@@ -433,7 +458,7 @@ main {
 }
 
 @keyframes upload-fill-amazeballs {
-	0%   {fill: #ff0000;}
+	0%	  {fill: #ff0000;}
 	10%  {fill: #ff8000;}
 	20%  {fill: #ffff00;}
 	30%  {fill: #80ff00;}
@@ -470,13 +495,13 @@ main {
    Apps Page
    ========================================================================== */
 table {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 1.75em auto;
-    width: 100%;
-    max-width: 60em;
-    background-color: transparent;
-    border: #E1E1E1 1px solid;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 1.75em auto;
+	width: 100%;
+	max-width: 60em;
+	background-color: transparent;
+	border: #E1E1E1 1px solid;
 }
 
 table tr {
@@ -484,21 +509,21 @@ table tr {
 }
 
 table tr:first-of-type {
-    border-top: none;
+	border-top: none;
 }
 
 table th,
 table td {
-    padding: 8px;
-    line-height: 26px;
-    text-align: left;
-    vertical-align: top;
-    border-right: #E1E1E1 1px solid;
+	padding: 8px;
+	line-height: 26px;
+	text-align: left;
+	vertical-align: top;
+	border-right: #E1E1E1 1px solid;
 }
 
 table th:last-of-type,
 table td:last-of-type {
-    border-right: none;
+	border-right: none;
 }
 
 table th { color: #000; }
@@ -509,7 +534,7 @@ table colgroup + thead tr:first-child th,
 table colgroup + thead tr:first-child td,
 table thead:first-child tr:first-child th,
 table thead:first-child tr:first-child td {
-    border-top: 0;
+	border-top: 0;
 }
 
 table tbody + tbody { border-top: #EFEFEF 2px solid; }
@@ -518,7 +543,7 @@ table table table { background-color: #FFF; }
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-    background-color: #f0f0f0;
+	background-color: #f0f0f0;
 }
 
 table.plain tbody > tr:nth-child(odd) > td,
@@ -531,42 +556,50 @@ table.plain tbody > tr:nth-child(odd) > th {
    Media Queries
    ========================================================================== */
 
+@media only screen and (min-width: 35em) {
+	
+.upload svg {
+	height: 15em;
+}
+
+}
+
 @media only screen and (min-width: 50em) {
 
 /* ====================
-    WIDE: CSS3 Effects
+	WIDE: CSS3 Effects
    ==================== */
 
-    .header-container,
-    .main aside {
-        box-shadow: 0 1px 2px #aaa;
-    }
+	.header-container,
+	.main aside {
+		box-shadow: 0 1px 2px #aaa;
+	}
 
 /* ============
-    WIDE: Menu
+	WIDE: Menu
    ============ */
 
-    .title {
-        float: left;
-    }
+	.title {
+		float: left;
+	}
 
-    nav {
-        display: block;
+	nav {
+		display: block;
 		width: 100%;
-    }
+	}
 }
 
 @media only screen and (min-width: 65em) {
 
 /* ===============
-    Maximal Width
+	Maximal Width
    =============== */
 
-    .wrapper {
+	.wrapper {
 		// width: 1026px; /* 1140px - 10% for margins */
-        max-width: 75em;
-        margin: 0 auto;
-    }
+		max-width: 75em;
+		margin: 0 auto;
+	}
 }
 
 /* ==========================================================================
@@ -574,126 +607,59 @@ table.plain tbody > tr:nth-child(odd) > th {
    ========================================================================== */
 
 .ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px;
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	*text-indent: -9999px;
 }
 
 .ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
+	content: "";
+	display: block;
+	width: 0;
+	height: 150%;
 }
 
 .hidden {
-    display: none !important;
-    visibility: hidden;
+	display: none !important;
+	visibility: hidden;
 }
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
 }
 
 .invisible {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+	content: " ";
+	display: table;
 }
 
 .clearfix:after {
-    clear: both;
+	clear: both;
 }
 
 .clearfix {
-    *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+	*zoom: 1;
 }
