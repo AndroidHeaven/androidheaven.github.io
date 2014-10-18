@@ -9,7 +9,7 @@ var gulp       = require('gulp'),
 
 var paths = {
 	styles:  'styles/*.scss',
-	scripts: ['scripts/modernizr.js', 'bower_components/fastclick/lib/fastclick.js', 'bower_components/dropzone/downloads/dropzone.js', 'scripts/main.js'],
+	scripts: ['scripts/modernizr.js', 'scripts/parallax.js', 'bower_components/fastclick/lib/fastclick.js', 'bower_components/dropzone/downloads/dropzone.js', 'scripts/main.js'],
 };
 
 gulp.task('bower', function() {

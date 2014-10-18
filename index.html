@@ -15,24 +15,13 @@
                 <img src="images/iandroid.png" alt="iAndroid logo" class="header-logo">
 			</header>
 		</div>
-        <div id="container" class="container">
+        <div class="parallax-bg">
             <ul id="scene" class="scene">
                 <li class="layer" data-depth="1.00"><img src="images/androidField.png"></li>
                 <li class="layer" data-depth="0.80"><img src="images/androidField2.png"></li>
                 <li class="layer" data-depth="0.60"><img src="images/androidField3.png"></li>
             </ul>
         </div>
-
-        <!-- Scripts -->
-        <script src="../deploy/parallax.js"></script>
-        <script>
-
-        // Pretty simple huh?
-        var scene = document.getElementById('scene');
-        var parallax = new Parallax(scene);
-
-        </script>
-
 		<div class="main-container">
 			<div class="main wrapper clearfix">
 				<form action="/project-upload" class="upload">

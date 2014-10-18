@@ -7,6 +7,7 @@
 		init: function() {
 			this.FastClick();
 			this.Dropzone();
+			this.Parallax();
 		},
 		
 		// Initialize FastClick
@@ -19,6 +20,12 @@
 		// Initialize Dropzone
 		Dropzone: function() {
 			new Dropzone(".upload", { url: "/file/post"});
+		},
+		
+		Parallax: function() {
+			// Pretty simple huh?
+			var scene = document.getElementById('scene');
+			var parallax = new Parallax(scene);
 		}
 		
 	};

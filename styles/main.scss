@@ -161,6 +161,11 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+.parallax-bg {
+	position: absolute;
+	z-index: -1;
+}
+
 #holder {
     background-image: url('images/Cloud-Upload.svg');
 }
