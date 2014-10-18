@@ -86,7 +86,7 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #a4c739;
+    border-bottom: 20px solid #C73A3A;
 }
 
 header.wrapper {
@@ -95,7 +95,7 @@ header.wrapper {
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #A4C639;
+    border-top: 20px solid #C73A3A;
 }
 
 .header-container,
@@ -141,17 +141,20 @@ nav ul {
 }
 
 nav a {
+	font-weight: bold;
+}
+
+a {
     text-decoration: none;
-    font-weight: bold;
     color: #38474F;
     height: 100%;
 }
 
-nav a:link {
+a:link {
     color: #5c7c8c;
 }
 
-nav a:hover:link {
+a:hover:link {
     text-decoration: underline;
 }
 
@@ -169,10 +172,6 @@ nav a:hover:link {
 
 .main aside {
     padding: 0px 5% 10px;
-}
-
-.footer-container footer {
-    padding: 20px 0;
 }
 
 /* ===============
@@ -247,7 +246,7 @@ main {
 
 .cloud-fill {
 	transition: fill 0.5s ease;
-	fill: #A4C639;
+	fill: #C73A3A;
 	//animation: upload-fill 2s linear infinite alternate-reverse;
 	
 	&:hover {
@@ -383,7 +382,7 @@ main {
 		bottom: 0;
 		left: 0;
 		width: 0%;
-		background-color: #A4C639;
+		background-color: #c73a3a;
 	}
 	.upload .dz-preview.dz-processing .dz-progress,
 	.upload-previews .dz-preview.dz-processing .dz-progress {
@@ -409,7 +408,7 @@ main {
 
 @keyframes upload-fill {
 	0% {
-		fill: #38474F;
+		fill: #C73A3A;
 	}
 	
 	100% {
