@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="488px" height="399px" viewBox="0 0 488 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Cloud Upload</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.245202106 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard" sketch:type="MSArtboardGroup" transform="translate(-758.000000, -211.000000)" filter="url(#filter-1)" fill="#FFFFFF">
+            <path d="M992.666667,515 L975.444444,515 L851.518519,515 C801.948148,515 763,476.176471 763,426.764706 C763,389.705882 784.244444,359.705882 816.111111,345.588235 L816.111111,338.529412 C816.111111,269.705882 870.992593,215 940.037037,215 C986.066667,215 1026.78519,239.705882 1048.02963,278.529412 C1060.42222,271.470588 1074.58519,267.941176 1090.51852,267.941176 C1136.54815,267.941176 1177.26667,301.470588 1186.11852,345.588235 C1217.98519,357.941176 1241,389.705882 1241,426.764706 C1241,476.176471 1202.05185,515 1152.48148,515 L1028.55556,515 L1010.33333,515 L1010.33333,604 L992.666667,604 L992.666667,515 Z M992.666667,515 L1010.33333,515 L1010.33333,409.384615 L1066.86667,466 L1081,453.615385 L1001.5,374 L922,453.615385 L936.133333,466 L992.666667,409.384615 L992.666667,515 Z" id="Cloud-Upload" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
