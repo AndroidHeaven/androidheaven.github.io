@@ -240,10 +240,11 @@ main {
 	cursor: pointer;
 	
 	form.classic {
-		background: rgba(204, 204, 204, 0.5);
-		padding: 0.75% 0.25%;
-		border-radius: 4px;
 		display: inline-block;
+		padding: 0.75% 0.25%;
+		background: rgba(204, 204, 204, 0.5);
+		border-radius: 4px;
+		box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 	}
 	
 	input {
