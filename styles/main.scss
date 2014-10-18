@@ -13,6 +13,10 @@ html {
     line-height: 1.4;
 }
 
+body {
+	background-color: #FAFAFA;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -100,7 +104,7 @@ header.wrapper {
 .header-container,
 .footer-container,
 main {
-	background: #fafafa;
+	background-color: #FAFAFA;
 }
 
 .header-logo {
