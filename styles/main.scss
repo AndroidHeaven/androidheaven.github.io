@@ -183,13 +183,16 @@ nav a:hover {
 main {
 	background: #FFF;
 	width: 100%;
-	min-height: 100vh;
 	box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.35);
 	overflow: auto;
 }
 
 .main-container {
 	margin: 1.5% 5%;
+}
+
+.below-fold {
+	min-height: 100vh;
 }
 
 .upload {

@@ -19,7 +19,7 @@
 		
 		// Initialize Dropzone
 		Dropzone: function() {
-			new Dropzone(".upload", { url: "/file/post"});
+			new Dropzone(".upload", { url: "https://dubhacks.ngrok.com/upload"});
 		},
 		
 		Parallax: function() {
