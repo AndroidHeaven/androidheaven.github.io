@@ -11,6 +11,13 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -73,8 +80,6 @@ body {
     width: 90%;
     margin: 0 5%;
 }
-
-
 
 /* ===================
     ALL: Orange Theme
@@ -259,14 +264,6 @@ main {
 /* ==========================================================================
    Dropzone.js
    ========================================================================== */
-/* The MIT License */
-.upload,
-.upload *,
-.upload-previews,
-.upload-previews * {
-	box-sizing: border-box;
-}
-
 .upload {
 	position: relative;
 	padding: 1em;
@@ -421,16 +418,16 @@ main {
 }
 
 @keyframes upload-fill-amazeballs {
-	0% {fill: #ff0000;}
-	10% {fill: #ff8000;}
-	20% {fill: #ffff00;}
-	30% {fill: #80ff00;}
-	40% {fill: #00ff00;}
-	50% {fill: #00ff80;}
-	60% {fill: #00ffff;}
-	70% {fill: #0080ff;}
-	80% {fill: #0000ff;}
-	90% {fill: #8000ff;}
+	0%   {fill: #ff0000;}
+	10%  {fill: #ff8000;}
+	20%  {fill: #ffff00;}
+	30%  {fill: #80ff00;}
+	40%  {fill: #00ff00;}
+	50%  {fill: #00ff80;}
+	60%  {fill: #00ffff;}
+	70%  {fill: #0080ff;}
+	80%  {fill: #0000ff;}
+	90%  {fill: #8000ff;}
 	100% {fill: #ff0080;}
 }
 
@@ -590,7 +587,7 @@ table.plain tbody > tr:nth-child(odd) > th {
     }
 }
 
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 65em) {
 
 /* ===============
     Maximal Width
