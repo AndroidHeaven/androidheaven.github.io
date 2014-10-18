@@ -228,18 +228,18 @@ main {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	height: 100vh;
+	min-height: 100vh;
 	cursor: pointer;
 	
 	form.classic {
 		background: rgba(204, 204, 204, 0.35);
-		padding: 0.5%;
+		padding: 0.75% 0.25%;
 		border-radius: 4px;
 		display: inline-block;
 	}
 	
 	input {
-		width: 75%;
+		width: 70%;
 	}
 	
 	button {
@@ -250,7 +250,7 @@ main {
 		background: #C73A3A;
 		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 		box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
-		width: 22.5%;
+		width: 25%;
 		
 		&:hover {
 			background: #38474F;
