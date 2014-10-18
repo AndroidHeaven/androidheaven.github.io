@@ -131,12 +131,11 @@ nav a {
     height: 100%;
 }
 
-nav a:hover,
-nav a:visited {
+nav a:link {
     color: #5c7c8c;
 }
 
-nav a:hover {
+nav a:hover:link {
     text-decoration: underline;
 }
 
