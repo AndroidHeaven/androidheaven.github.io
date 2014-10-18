@@ -1,0 +1,19 @@
+{
+  "name": "SSHASCIIMMORPGOFTPWICWIP",
+  "version": "0.0.1",
+  "description": "DubHacks ========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScottSmith95/SSHASCIIMMORPGOFTPWICWIP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottSmith95/SSHASCIIMMORPGOFTPWICWIP/issues"
+  },
+  "homepage": "https://github.com/ScottSmith95/SSHASCIIMMORPGOFTPWICWIP"
+}
