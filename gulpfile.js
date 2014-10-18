@@ -1,6 +1,5 @@
 var gulp       = require('gulp'),
 	bower = require('gulp-bower');
-	csscomb    = require('gulp-csscomb'),
 	sass       = require('gulp-sass'),
 	prefix     = require('gulp-autoprefixer'),
 	minify     = require('gulp-minify-css'),
@@ -20,12 +19,9 @@ gulp.task('bower', function() {
 
 gulp.task('styles', function() {
 	return gulp.src(paths.styles)
-		.pipe(sourcemaps.init())
-			.pipe(csscomb())
-			.pipe(sass())
-			.pipe(prefix('last 2 versions', '> 1%', 'ie 9', 'ie 8', 'Firefox ESR', 'Opera 12.1'))
-			.pipe(minify({cache: true}))
-		.pipe(sourcemaps.write('./'))
+		.pipe(sass())
+		.pipe(prefix('last 2 versions', '> 1%', 'ie 9', 'ie 8', 'Firefox ESR', 'Opera 12.1'))
+		.pipe(minify({cache: true}))
 		.pipe(gulp.dest('styles/build/'));
 });
 
