@@ -19,7 +19,7 @@
 		
 		// Initialize Dropzone
 		Dropzone: function() {
-			new Dropzone(".upload form", { url: 'https://dubhacks.ngrok.com/upload', clickable: '.upload svg'});
+			new Dropzone(".upload form", { url: 'https://dubhacks-bb.ngrok.com/create', clickable: '.upload svg'});
 		},
 		
 		Parallax: function() {
