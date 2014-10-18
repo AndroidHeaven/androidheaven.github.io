@@ -75,22 +75,28 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #a4c739;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #a4c739;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #9a9d97;
 }
 
 .title {
     color: white;
+}
+
+#header-logo {
+    max-height: 80px;
+    margin: 10px 0;
+    float: left;
 }
 
 
