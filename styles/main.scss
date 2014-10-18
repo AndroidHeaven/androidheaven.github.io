@@ -248,11 +248,14 @@ nav a:hover {
 }
 .dropzone .dz-preview .dz-details img,
 .dropzone-previews .dz-preview .dz-details img {
-	position: absolute;
+	/*
+position: absolute;
 	top: 0;
 	left: 0;
 	width: 100px;
 	height: 100px;
+*/
+	display: none;
 }
 .dropzone .dz-preview .dz-details .dz-size,
 .dropzone-previews .dz-preview .dz-details .dz-size {
