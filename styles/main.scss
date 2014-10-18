@@ -465,15 +465,15 @@ main {
 table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.75em 0;
+    margin: 1.75em auto;
     width: 100%;
-    max-width: 100%;
+    max-width: 60em;
     background-color: transparent;
-    border: #F6F6F6 1px solid;
+    border: #E1E1E1 1px solid;
 }
 
 table tr {
-	 border-top: #EFEFEF 1px solid;
+	 border-top: #E1E1E1 1px solid;
 }
 
 table tr:first-of-type {
@@ -483,10 +483,10 @@ table tr:first-of-type {
 table th,
 table td {
     padding: 8px;
-    line-height: 20px;
+    line-height: 26px;
     text-align: left;
     vertical-align: top;
-    border-right: #EFEFEF 1px solid;
+    border-right: #E1E1E1 1px solid;
 }
 
 table th:last-of-type,
@@ -511,7 +511,7 @@ table table table { background-color: #FFF; }
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-    background-color: #F6F6F6;
+    background-color: #f0f0f0;
 }
 
 table.plain tbody > tr:nth-child(odd) > td,
