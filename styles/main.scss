@@ -220,11 +220,10 @@ nav a:hover {
 }
 .dropzone .dz-preview,
 .dropzone-previews .dz-preview {
-	background: rgba(255,255,255,0.8);
+	background-color: rgba(240, 240, 240, 0.8);
 	position: relative;
 	display: inline-block;
-	top: 2em;
-
+	//top: 2em;
 	vertical-align: top;
 	border: 1px solid #acacac;
 	padding: 6px 6px 6px 6px;
@@ -235,16 +234,16 @@ nav a:hover {
 }
 .dropzone .dz-preview .dz-details,
 .dropzone-previews .dz-preview .dz-details {
-	width: 100px;
-	height: 100px;
+	width: 7.5em;
+	height: 7.5em;
 	position: relative;
-	background: #ebebeb;
 	padding: 5px;
+	background-image: url(../../images/apk.png);
+	background-size: 100%;
 }
 .dropzone .dz-preview .dz-details .dz-filename,
 .dropzone-previews .dz-preview .dz-details .dz-filename {
-	overflow: hidden;
-	height: 100%;
+	display: none;
 }
 .dropzone .dz-preview .dz-details img,
 .dropzone-previews .dz-preview .dz-details img {
@@ -294,10 +293,10 @@ nav a:hover {
 .dropzone .dz-preview .dz-progress,
 .dropzone-previews .dz-preview .dz-progress {
 	position: absolute;
-	top: 100px;
-	left: 6px;
-	right: 6px;
-	height: 6px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 0.35em;
 	background: #d7d7d7;
 	display: none;
 }
@@ -337,7 +336,7 @@ nav a:hover {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 35em) {
 
 /* ====================
     INTERMEDIATE: Menu
@@ -372,7 +371,7 @@ nav a:hover {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 50em) {
 
 /* ====================
     WIDE: CSS3 Effects
@@ -380,9 +379,7 @@ nav a:hover {
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+        box-shadow: 0 5px 10px #aaa;
     }
 
 /* ============
