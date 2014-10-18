@@ -1,1 +1,0 @@
-new Dropzone("div#upload", { /* options */ });
