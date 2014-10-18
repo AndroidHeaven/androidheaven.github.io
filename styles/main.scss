@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+@import '/bower_components/normalize-css/normalize.css';
 
 html,
 button,
@@ -11,10 +11,6 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-}
-
-body {
-	margin: 0;
 }
 
 ::-moz-selection {
