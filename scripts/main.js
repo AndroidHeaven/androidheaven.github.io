@@ -19,7 +19,7 @@
 		
 		// Initialize Dropzone
 		Dropzone: function() {
-			new Dropzone(".upload form", { url: 'http://140.142.82.73:3000/upload', method: 'post', acceptedFiles: '.zip', clickable: '.upload svg'});
+			new Dropzone(".upload form", { url: 'http://173.250.177.106:3000/upload', method: 'post', acceptedFiles: '.zip', clickable: '.upload svg'});
 		},
 		
 		Parallax: function() {
