@@ -228,6 +228,7 @@ main {
 
 .upload {
 	display: flex;
+	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
