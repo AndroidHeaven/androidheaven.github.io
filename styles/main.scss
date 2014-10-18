@@ -5,7 +5,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #444;
 }
 
 html {
@@ -86,11 +86,8 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-    background: #9a9d97;
-}
-
-.title {
-    color: white;
+    background: #FFF;
+    color: #444;
 }
 
 #header-logo {
@@ -149,7 +146,6 @@ nav a:hover {
 }
 
 .footer-container footer {
-    color: white;
     padding: 20px 0;
 }
 
