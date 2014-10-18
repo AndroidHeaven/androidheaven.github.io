@@ -1,7 +1,5 @@
 bower_components/
 node_modules/
-scripts/build/
-styles/build/
 styles/.sass-cache/
 config.codekit
 npm-debug.log
