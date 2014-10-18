@@ -216,7 +216,8 @@ main {
 }
 
 .main-container {
-	margin: 2.5% 5%;
+	max-width: 75em;
+	margin: 2.5% auto;
 }
 
 .below-fold {
@@ -244,6 +245,12 @@ main {
 		&:hover {
 			animation: upload-shadow-hover 2s linear infinite alternate-reverse;
 		}
+	}
+	
+	p {
+		margin: 2.5% auto;
+		font-size: 1.35em;
+		max-width: 17.5em;
 	}
 }
 
@@ -438,17 +445,17 @@ main {
 	}
 	
 	100% {
-		filter: drop-shadow(0 0 7px RGBA(199, 58, 58, 1));
+		filter: drop-shadow(0 0 7px RGBA(199, 58, 58, 0.75));
 	}
 }
 
 @keyframes upload-shadow-hover {
 	0% {
-		filter: drop-shadow(0 0 7px RGBA(199, 58, 58, 0.75));
+		filter: drop-shadow(0 0 7px RGBA(199, 58, 58, 0.25));
 	}
 	
 	100% {
-		filter: drop-shadow(0 0 7px RGBA(199, 58, 58, 1));
+		filter: drop-shadow(0 0 7px RGBA(199, 58, 58, 0.65));
 	}
 }
 
@@ -517,38 +524,6 @@ table.plain tbody > tr:nth-child(odd) > th {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        margin: 0 1.7%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-}
-
 @media only screen and (min-width: 50em) {
 
 /* ====================
@@ -572,20 +547,6 @@ table.plain tbody > tr:nth-child(odd) > th {
         display: block;
 		width: 100%;
     }
-
-/* ============
-    WIDE: Main
-   ============ */
-
-    .main article {
-        float: left;
-        width: 57%;
-    }
-
-    .main aside {
-        float: right;
-        width: 28%;
-    }
 }
 
 @media only screen and (min-width: 65em) {
@@ -595,7 +556,8 @@ table.plain tbody > tr:nth-child(odd) > th {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+		// width: 1026px; /* 1140px - 10% for margins */
+        max-width: 75em;
         margin: 0 auto;
     }
 }
