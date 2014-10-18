@@ -80,6 +80,10 @@ body {
     border-bottom: 20px solid #a4c739;
 }
 
+header.wrapper {
+	overflow: auto;
+}
+
 .footer-container,
 .main aside {
     border-top: 20px solid #A4C639;
@@ -98,18 +102,22 @@ body {
     float: left;
 }
 
-#appsLink {
-    position: absolute;
-    vertical-align: middle;
-    right: 15%;
-    top: 5%
-    color: green;
-    text-decoration: none;
+.home-link {
+	float: left;
+}
+
+.apps-link {
+   float: right;
 }
 
 /* ==============
     MOBILE: Menu
    ============== */
+
+nav {
+	margin: 1.5% 0;
+	display: inline;
+}
 
 nav ul {
     margin: 0;
@@ -117,21 +125,15 @@ nav ul {
 }
 
 nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
     text-decoration: none;
     font-weight: bold;
-
-    color: white;
-    background: #e44d26;
+    color: #38474F;
+    height: 100%;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+    color: #5c7c8c;
 }
 
 nav a:hover {
@@ -489,10 +491,7 @@ table.plain tbody > tr:nth-child(odd) > th {
    ==================== */
 
     nav a {
-        float: left;
-        width: 27%;
         margin: 0 1.7%;
-        padding: 25px 2%;
         margin-bottom: 0;
     }
 
@@ -540,8 +539,8 @@ table.plain tbody > tr:nth-child(odd) > th {
     }
 
     nav {
-        float: right;
-        width: 38%;
+        display: block;
+		width: 100%;
     }
 
 /* ============
