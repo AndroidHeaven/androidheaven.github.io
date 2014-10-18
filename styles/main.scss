@@ -96,6 +96,14 @@ body {
     float: left;
 }
 
+#appsLink {
+    position: absolute;
+    vertical-align: middle;
+    right: 15%;
+    top: 5%
+    color: green;
+    text-decoration: none;
+}
 
 /* ==============
     MOBILE: Menu
@@ -226,6 +234,8 @@ main {
 		animation: upload-fill-amazeballs 0.1s linear infinite alternate-reverse;
 	}
 }
+
+
 
 /* ==========================================================================
    Dropzone.js
