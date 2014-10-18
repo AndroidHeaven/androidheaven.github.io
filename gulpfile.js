@@ -1,5 +1,5 @@
 var gulp       = require('gulp'),
-	bower = require('gulp-bower');
+	bower      = require('gulp-bower');
 	sass       = require('gulp-sass'),
 	prefix     = require('gulp-autoprefixer'),
 	minify     = require('gulp-minify-css'),
@@ -8,8 +8,8 @@ var gulp       = require('gulp'),
 	sourcemaps = require('gulp-sourcemaps');
 
 var paths = {
-	styles:     'styles/*.scss',
-	scripts:    ['scripts/modernizr.js', 'bower_components/fastclick/lib/fastclick.js', 'bower_components/dropzone/downloads/dropzone.js', 'scripts/main.js'],
+	styles:  'styles/*.scss',
+	scripts: ['scripts/modernizr.js', 'bower_components/fastclick/lib/fastclick.js', 'bower_components/dropzone/downloads/dropzone.js', 'scripts/main.js'],
 };
 
 gulp.task('bower', function() {
@@ -19,9 +19,11 @@ gulp.task('bower', function() {
 
 gulp.task('styles', function() {
 	return gulp.src(paths.styles)
-		.pipe(sass())
-		.pipe(prefix('last 2 versions', '> 1%', 'ie 9', 'ie 8', 'Firefox ESR', 'Opera 12.1'))
-		.pipe(minify({cache: true}))
+		.pipe(sourcemaps.init())
+			.pipe(sass())
+			.pipe(prefix('last 2 versions', '> 1%', 'ie 9', 'ie 8', 'Firefox ESR', 'Opera 12.1'))
+			.pipe(minify({cache: true}))
+		.pipe(sourcemaps.write('./'))
 		.pipe(gulp.dest('styles/build/'));
 });
 
